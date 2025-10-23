@@ -12,10 +12,9 @@ class Bank_Exception(Exception):
             return "Error occured in script:[{0}] at line number:[{1}] error message:[{2}]".format(
                 self.file_name,self.line_number,str(self.error_message))
         
-if __name__=="__main__":
-    try:
-        a=1/0
-    except Exception as e:
-        bank_exception=Bank_Exception(e,sys)
-        logger.logging.info(bank_exception.error_message)
-        raise bank_exception
+# if __name__=="__main__":
+#     try:
+#         logger.logging.info("Divide by zero error")
+#         a=1/0
+#     except Exception as e:
+#         raise Bank_Exception(e,sys)

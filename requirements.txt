@@ -5,6 +5,8 @@ flask
 django
 gunicorn
 requests
+mysql-connector-python
+python-dotenv
+pyaml
 
-
--e .
+#-e .

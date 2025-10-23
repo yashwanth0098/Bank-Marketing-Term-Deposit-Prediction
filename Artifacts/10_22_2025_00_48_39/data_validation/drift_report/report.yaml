@@ -1,0 +1,79 @@
+age:
+  drift_detected: &id001 !!python/object/apply:numpy._core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - b1
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    AA==
+  psi_value: 0.0005112164332020426
+campaign:
+  drift_detected: *id001
+  psi_value: 0.00042237574528443053
+cons.conf.idx:
+  drift_detected: *id001
+  psi_value: 0.0014377215665003784
+cons.price.idx:
+  drift_detected: *id001
+  psi_value: 0.0008352516800408516
+contact:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+day_of_week:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+default:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+duration:
+  drift_detected: *id001
+  psi_value: 0.0005774489109246891
+education:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+emp.var.rate:
+  drift_detected: *id001
+  psi_value: 0.0013271590815099037
+euribor3m:
+  drift_detected: *id001
+  psi_value: 0.0011935677322227093
+housing:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+job:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+loan:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+marital:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+month:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+nr.employed:
+  drift_detected: *id001
+  psi_value: 0.0009172990836142984
+pdays:
+  drift_detected: *id001
+  psi_value: 5.1917452820607357e-05
+poutcome:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null
+previous:
+  drift_detected: *id001
+  psi_value: 3.3399362030381554e-05
+y:
+  drift_detected: Not Applicable (Non-numeric column)
+  psi_value: null

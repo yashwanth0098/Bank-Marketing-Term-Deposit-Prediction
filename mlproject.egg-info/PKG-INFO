@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: mlproject
+Version: 0.0.1
+Author: Yashwanth Kumar
+Author-email: YhM9S@example.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: flask
+Requires-Dist: django
+Requires-Dist: gunicorn
+Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

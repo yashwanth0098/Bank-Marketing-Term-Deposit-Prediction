@@ -4,13 +4,14 @@ from datetime import datetime
 
 
 LOGFILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
-LOGPATH = os.path.join(os.getcwd(),'log',LOGFILE)
+LOGDIR  = os.path.join(os.getcwd(),'log',LOGFILE)
 
-os.makedirs(LOGPATH, exist_ok=True)
+os.makedirs(LOGDIR, exist_ok=True)
 
-LOGFILEPATH=os.path.join(LOGPATH,LOGFILE)
+LOGFILEPATH=os.path.join(LOGDIR,LOGFILE)
 
 logging.basicConfig(filename=LOGFILEPATH,
-                    format='[%(asctime)s] %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
+                    format='[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s',
+                    level=logging.INFO,
+                    )
 
