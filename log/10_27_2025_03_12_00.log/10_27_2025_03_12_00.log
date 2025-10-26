@@ -1,0 +1,34 @@
+[2025-10-27 03:12:15,060] 17 root - INFO - Exporting the data from the database
+[2025-10-27 03:12:15,817] 65 root - INFO - Performed train test split
+[2025-10-27 03:12:15,817] 67 root - INFO - exited split_data_as_train_test method of Data Ingestion class
+[2025-10-27 03:12:15,817] 73 root - INFO - Created directory for train and test data
+[2025-10-27 03:12:16,022] 78 root - INFO - Exported train and test data
+[2025-10-27 03:12:16,041] 20 root - INFO - Data Ingestion Completed
+[2025-10-27 03:12:16,048] 25 root - INFO - Starting data validation
+[2025-10-27 03:12:16,110] 34 root - INFO - Expected number of columns: 25
+[2025-10-27 03:12:16,110] 35 root - INFO - Dataframe has columns: Index(['age', 'job', 'marital', 'education', 'default', 'housing', 'loan',
+       'contact', 'month', 'day_of_week', 'duration', 'campaign', 'pdays',
+       'previous', 'poutcome', 'emp.var.rate', 'cons.price.idx',
+       'cons.conf.idx', 'euribor3m', 'nr.employed', 'y'],
+      dtype='object')
+[2025-10-27 03:12:16,110] 114 root - ERROR - Train dataframe does not have all columns
+[2025-10-27 03:12:16,110] 34 root - INFO - Expected number of columns: 25
+[2025-10-27 03:12:16,110] 35 root - INFO - Dataframe has columns: Index(['age', 'job', 'marital', 'education', 'default', 'housing', 'loan',
+       'contact', 'month', 'day_of_week', 'duration', 'campaign', 'pdays',
+       'previous', 'poutcome', 'emp.var.rate', 'cons.price.idx',
+       'cons.conf.idx', 'euribor3m', 'nr.employed', 'y'],
+      dtype='object')
+[2025-10-27 03:12:16,110] 118 root - ERROR - Test dataframe does not have all columns
+[2025-10-27 03:12:16,319] 28 root - INFO - Data Validation Completed
+[2025-10-27 03:12:16,319] 32 root - INFO - Starting data transformation
+[2025-10-27 03:12:16,319] 69 root - INFO - Entered the initiate_data_transformation method of Data_Transformation class
+[2025-10-27 03:12:16,382] 77 root - INFO - Read train and test data completed
+[2025-10-27 03:12:16,382] 79 root - INFO - Obtaining preprocessor object
+[2025-10-27 03:12:16,388] 39 root - INFO - Entered the get_data_transformer_object method of Data_Transformation class
+[2025-10-27 03:12:16,539] 48 root - INFO - Entered the save_object method of main_utils class
+[2025-10-27 03:12:16,539] 56 root - INFO - Exited the save_object method of main_utils class
+[2025-10-27 03:12:16,539] 108 root - INFO - Saved transformed training and testing array
+[2025-10-27 03:12:16,539] 48 root - INFO - Entered the save_object method of main_utils class
+[2025-10-27 03:12:16,540] 56 root - INFO - Exited the save_object method of main_utils class
+[2025-10-27 03:12:16,540] 116 root - INFO - Exited the initiate_data_transformation method of Data_Transformation class
+[2025-10-27 03:12:16,541] 35 root - INFO - Data Transformation Completed

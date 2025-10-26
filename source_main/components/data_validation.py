@@ -3,7 +3,8 @@ from source_main.entity.config import Data_ValidationConfig
 from source_main.logging.logger import logging
 from source_main.exception.exception import Bank_Exception
 import os, sys
-from source_main.utils.main_utils.utils import read_yaml_file, write_yaml_file
+from source_main.utils.main_utlis.utils import read_yaml_file, write_yaml_file
+
 from source_main.constants.pipelineconstants import SCHEME_FILE_PATH
 import pandas as pd
 import numpy as np

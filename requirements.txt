@@ -1,12 +1,13 @@
 pandas
 numpy 
 scikit-learn
-flask
-django
-gunicorn
 requests
 mysql-connector-python
 python-dotenv
 pyaml
+dagshub
+mlflow
+xgboost
+catboost
 
 #-e .

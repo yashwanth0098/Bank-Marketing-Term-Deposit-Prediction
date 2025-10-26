@@ -21,7 +21,7 @@ columns:
 -nr.employed: float64
 -y: object
 
-
+target_column: y
 
 numeric_columns:
   - age
@@ -46,4 +46,4 @@ categorical_columns:
   - month
   - day_of_week
   - poutcome
-  - y
+  
